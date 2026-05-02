@@ -1,0 +1,18 @@
+type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
+*u,
+u,,,circuittemp,,,,5017,,pump,,pumpstatus,,,SolarPump,,,IGN:1,,,,collectortemp,,temp,,,Collector Temperature,wwboilertemp,,temp,,,WW Boiler Temperature,,,,,,,,,,,,,,,,,,
+u,,,yield,Collector Yield,,,5018,,power,,UIN,10,kW,Solar Power,dailysumfraction,,FLT,,,Daily Fraction,dailysum,,UIN,,,Daily Sum,totalsumfraction,,FLT,,,Total Sum Fraction,totalsumkwh,,UIN,,,Total Sum kWh,totalsummwh,,UIN,,,Total Sum MWh,,,,,,
+u,,,tempsensors,Temperature Sensors,,,0301,,outsidetemp,,SIN,10,°C,Outside Temperature,insidetemp,,SIN,10,°C,Inside Temperature,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+u,,,sensors ,Control Values,,,0800,,boilerwanttemp,,temp2,,,Boiler Requested Temperature,outsidetemp,,temp2,,,Outside Temperature,,,,,
+u,,,counter2,Counter2,,71,5023,,count2,,SIN,,,Count2
+u,,,time,Date/Time,,,0700,,,,IGN:2,,,,time,,btime,,,,date,,bdate,,,,,,,,,
+u,,,returntemp,Return Temperature,,76,5022,CC2B0A,return,,SIN,10,°C,Return Temperature
+u,,,tempcollectormin,Collector Minimum,,76,5022,CC7709,collectorminimum,,SIN,10,°C,Collector Minimum
+u,,,tempcollectormax,Collector Maximum,,76,5022,CC7809,collectormaximum,,SIN,10,°C,Collector Maximum
+u,,,tempboilermin,Boiler Minimum,,76,5022,CC7B09,boilerminimum,,SIN,10,°C,Boiler Minumum
+u,,,tempboilermax,Boiler Maximum,,76,5022,CC7C09,boilermaximum,,SIN,10,°C,Boiler Maximum
+u,,,pumpruntime,Run Time Pump,,76,5022,CCF902,runtime,,UIN,,,Run Time Pump
+u,,,counter,Counter,,76,5022,CC484E,count,,UIN,,,Counter
+u,,,counteryeartotalkwh,Year Total kWh,,76,5022,CC2503,,,UIN,,,Year Total kWh
+u,,,counteryeartotalmwh,Year Total MWh,,76,5022,CCC103,,,UIN,,,Year Total MWh
+u,,,error,Error message,,,FE01,,error,,STR:10,,,,,,,,,,,,,,,,,,,,,
