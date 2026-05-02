@@ -19,4 +19,4 @@ u,,,counter,Counter,,76,5022,CC484E,count,,UIN,,,Counter
 u,,,counteryeartotalkwh,Year Total kWh,,76,5022,CC2503,,,UIN,,,Year Total kWh
 u,,,counteryeartotalmwh,Year Total MWh,,76,5022,CCC103,,,UIN,,,Year Total MWh
 
-b,,,error,Error message,,,FE01,,error,,STR:10,,,,,,,,,,,,,,,,,,,,,
+u,,,error,Error message,,,FE01,,error,,STR:10,,,,,,,,,,,,,,,,,,,,,
