@@ -1,5 +1,0 @@
-type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
-*u,
-u,,,counter,Counter,,76,5022,CC484E,count,,UIN,,,Counter
-u,,,counteryeartotalkwh,Year Total kWh,,76,5022,CC2503,value,,UIN,,,Year Total kWh
-u,,,counteryeartotalmwh,Year Total MWh,,76,5022,CCC103,value,,UIN,,,Year Total MWh
